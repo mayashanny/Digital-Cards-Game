@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shuffle-1 {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-30px) rotate(-15deg); }
+}
+
+@keyframes shuffle-2 {
+  0%, 100% { transform: translateY(2px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(15deg); }
+}
+
+@keyframes shuffle-3 {
+  0%, 100% { transform: translateY(4px) rotate(0deg); }
+  50% { transform: translateY(0) rotate(-5deg); }
+}
+
+.animate-shuffle-1 {
+  animation: shuffle-1 0.5s ease-in-out;
+}
+
+.animate-shuffle-2 {
+  animation: shuffle-2 0.5s ease-in-out;
+}
+
+.animate-shuffle-3 {
+  animation: shuffle-3 0.5s ease-in-out;
+}
