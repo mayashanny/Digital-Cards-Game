@@ -1,47 +1,53 @@
-Welfairy Deck
-Welfairy Deck is a digital card pack application where users can view and interact with card packs online. Built with modern web technologies, the application is hosted on Vercel for seamless deployment and performance.
 
-Live Demo
-Check out the live application here: Welfairy Deck
+# Welfairy Deck
 
-Features
-Browse and view digital card packs.
-Interactive and user-friendly design.
-Responsive layout for both desktop and mobile devices.
-Installation
+Welfairy Deck is a digital card pack application where users can view and interact with card packs online. Built with modern web technologies, the application is hosted on [Vercel](https://vercel.com) for seamless deployment and performance.
+
+## Live Demo
+
+Check out the live application here: [Welfairy Deck](https://welfairy-deck-2aynd2n0t-mayas-projects-2a0e2b22.vercel.app/)
+
+## Features
+
+- Browse and view digital card decks.
+- Interactive and user-friendly design.
+- Responsive layout for both desktop and mobile devices.
+
+## Installation
+
 To run the project locally:
 
-Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
-bash
-Copy code
-git clone <repository-url>
-cd <repository-name>
-Install the dependencies:
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-bash
-Copy code
-npm install
-Start the development server:
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-bash
-Copy code
-npm run dev
-Open your browser and navigate to:
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
-arduino
-Copy code
-http://localhost:3000
-Build for Production
+## Build for Production
+
 To create a production build and serve it:
 
-Build the application:
+1. Build the application:
+   ```bash
+   npm run build
+   ```
 
-bash
-Copy code
-npm run build
-Start the production server:
-
-bash
-Copy code
-npm start
+2. Start the production server:
+   ```bash
+   npm start
+   ```
